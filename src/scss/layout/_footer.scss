@@ -1,0 +1,69 @@
+
+/***************************
+  *** #3 Footer. ***
+  ****************************/
+
+  .footer {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-top: 1px solid #b8b8b9;
+    &__span{
+        height: 20px;
+        color: #b8b8b9;
+        margin: 0 74px;
+        font-family: $fontText;
+        @media all and (min-width: 768px){
+            position: absolute;
+            top: 30%;
+            margin-left: 38px;
+        }
+    }
+    &__ul{
+        width: 114px;
+        height: 60px;
+        opacity: 75%;
+        margin: 20px 29px 30px;
+        font-weight: 500;
+        text-align: center;
+        text-transform: uppercase;
+        &--li a{
+            color: $colorTextPpal;
+            font-stretch: normal;
+            line-height: 20px;
+            font-size: 14px;
+            font-family: $fontTitle;
+        }
+        @media all and (min-width: 768px){
+            text-align: end;
+        }
+    }
+    &__aLogo{
+        &--img{
+            width: 115.9px;
+            height: 45px;
+            margin: 30px 28.1px 0 28px;
+        }
+        @media all and (min-width: 768px){
+            order: -1;
+        }
+    }
+    @media all and (min-width: 768px){
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        padding: 0px 40px;
+    }
+    @media all and (min-width: 1200px) {
+        padding: 0px 100px;
+    }    
+  }
+
+  
+  /***FIN Footer***/

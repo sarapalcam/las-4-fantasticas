@@ -1,0 +1,449 @@
+/*
+Indice
+    #1 Estilos Generales.
+    #2 Header.
+    #3 Footer.
+    #4 Home Main Section 1.
+    #5 Home Main Section 2.
+    #6 Home Main Section 3.
+    #7 Contacto.
+    #* Media Queries.
+*/
+
+/***************************
+*** #1 Estilos Generales. ***
+****************************/
+
+/***FIN Estilos Generales***/
+
+/***************************
+*** #2 Header. ***
+****************************/
+.header {
+  width: 100%;
+  height: 421px;
+}
+/* tocado */
+.container_nav {
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+.nombre_header {
+  height: 60px;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Rubik", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  color: #fff;
+  opacity: 0.95;
+  background-color: #099d8d;
+  width: 100%;
+  padding: 15px 80px;
+}
+
+.ul_nav_header {
+  width: 100%;
+  height: 45px;
+  opacity: 0.9;
+  background-color: #14d9c4;
+  text-transform: uppercase;
+  font-family: "Rubik", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  top: 0;
+}
+
+.menu_ul_nav_header {
+  display: flex;
+}
+a {
+  color: white;
+}
+
+.altavoz {
+  width: 100%;
+  height: 405px;
+  object-fit: cover;
+  position: absolute;
+}
+
+.rectangulo {
+  width: 90%;
+  height: 80px;
+  margin: 270px 20px 0px;
+  padding: 14px 15px 16px;
+  background-color: #fff;
+  position: absolute;
+  margin-top: 387px;
+}
+
+.lema {
+  width: 260px;
+  height: 50px;
+  margin: 0 auto;
+  background-color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.39;
+  letter-spacing: normal;
+  color: black;
+  text-align: center;
+}
+
+/***FIN Header***/
+
+/***************************
+*** #3 Footer. ***
+****************************/
+/*Made by Mariana*/
+
+.footer {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+.footer span {
+  height: 20px;
+  color: #b8b8b9;
+  margin: 0 74px;
+  font-family: "OpenSans", sans-serif;
+}
+.nav_footer ul {
+  width: 114px;
+  height: 60px;
+  opacity: 75%;
+  margin: 20px 29px 30px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+}
+.list_footer a {
+  color: #54585a;
+  font-stretch: normal;
+  line-height: 20px;
+  font-size: 14px;
+  font-family: "Rubik", sans-serif;
+}
+
+.imgLogo {
+  width: 115.9px;
+  height: 45px;
+  margin: 30px 28.1px 0 28px;
+}
+
+/***FIN Footer***/
+
+/***************************
+*** #4 Home Main Section 1. ***
+****************************/
+
+.section-team-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  position: relative;
+  width: 100%;
+}
+
+.team-title {
+  font-family: "Rubik", sans-serif;
+  color: #14d9c4;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 30px 0 15px 0;
+  height: 45px;
+  line-height: 45px;
+}
+
+.team-text {
+  font-family: "OpenSans", sans-serif;
+  color: #54585a;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.team-text-2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/***FIN Home Main Section 1***/
+
+/***************************
+*** #5 Home Main Section 2. ***
+****************************/
+
+.section-str-weak-main {
+  display: flex;
+  flex-direction: column;
+  background-color: #dddddd;
+  padding: 30px 15px;
+  width: 100%;
+}
+
+.square-decoration {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  position: relative;
+  align-self: center;
+  transform: translate(0, -150%) rotate(45deg);
+}
+
+.str-weak-title {
+  font-family: "Rubik", sans-serif;
+  color: #099d8d;
+  font-size: 24px;
+  font-weight: 500;
+  height: 45px;
+  line-height: 45px;
+}
+
+.str-weak-text {
+  font-family: "OpenSans", sans-serif;
+  color: #54585a;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.strengths {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weakness-title {
+  margin-top: 30px;
+}
+
+.weakness {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/***FIN Home Main Section 2***/
+
+/***************************
+*** #5 Home Main Section 3. ***
+****************************/
+.main_3_about_us {
+  text-align: center;
+  background-color: #fff;
+  padding: 30px 15px 45px 15px;
+  width: 100%;
+}
+.main_3_title {
+  font-family: "Rubik";
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #099d8d;
+  margin-bottom: 30px;
+}
+.member_title {
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+.main_3_article p {
+  color: #54585a;
+  font-family: "Open sans";
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.member_img {
+  width: 200px;
+  height: 200px;
+  border: 5px solid #b8b8b9;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+.main_3_ul_rrss {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 45px;
+}
+.main_3_ul_rrss .fab,
+.main_3_ul_rrss .fas {
+  color: #099d8d;
+  font-size: 20px;
+  padding: 0px 10px;
+}
+.separador_punto :before {
+  content: "·";
+  font-weight: bold;
+  font-size: 20px;
+  color: #099d8d;
+}
+
+/***FIN Home Main Section 3***/
+
+/******** #* MEDIAQUERIES ********/
+
+/*** #* MEDIAQUERIES Main Section 3 ***/
+
+@media all and (min-width: 768px) {
+  .main_3_about_us {
+    padding: 45px 45px 64px 45px;
+  }
+
+  .main_3_title {
+    line-height: 45px;
+    margin-bottom: 41px;
+  }
+
+  .main_3_article.member_1,
+  .main_3_article.member_3 {
+    display: flex;
+  }
+
+  .main_3_article.member_2,
+  .main_3_article.member_4 {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .member_2,
+  .member_3,
+  .member_4 {
+    margin-top: 60px;
+  }
+
+  .member_1_info,
+  .member_3_info {
+    margin-left: 31px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: baseline;
+  }
+
+  .member_2_info,
+  .member_4_info {
+    margin-right: 31px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    align-items: flex-end;
+  }
+
+  .member_title {
+    line-height: 45px;
+  }
+
+  .member_img {
+    min-width: 206px;
+    height: 206px;
+    margin-bottom: 0;
+  }
+
+  .main_3_article p {
+    max-width: 443px;
+    margin-bottom: 15px;
+  }
+
+  .main_3_ul_rrss {
+    margin-bottom: 0;
+  }
+
+  .main_3_ul_rrss .fab,
+  .main_3_ul_rrss .fas {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .separador_punto :before {
+    font-size: 16px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .main_3_about_us {
+    padding: 45px 138px 60px;
+  }
+
+  .member_2,
+  .member_3,
+  .member_4 {
+    margin-top: 60px;
+  }
+
+  .member_1_info,
+  .member_3_info {
+    margin-left: 45px;
+  }
+
+  .member_2_info,
+  .member_4_info {
+    margin-right: 45px;
+  }
+
+  .member_img {
+    min-width: 278px;
+    height: 278px;
+  }
+}
+
+/*** FIN #* MEDIAQUERIES Main Section 3 ***/
+
+/*** #5 Home Main Section 2. ***
+****************************/
+@media all and (min-width:768px){
+  .section-force{
+display:flex;
+  }
+  .weakness-title {
+    margin-top: 0;
+  }
+  .str-weak-title{
+    margin:0 12px 15px 0;
+  }
+  .str-weak-text{
+padding:0 15px 0 15px;
+  }
+ 
+}
+
+/*** #* MEDIAQUERIES footer ***/
+@media all and (min-width: 768px){
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_footer ul {
+  text-align: end;
+}
+}
+
+/*** #* FIN MEDIAQUERIES footer ***/
+
+/******** FIN #* MEDIAQUERIES ********/

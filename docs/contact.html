@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=OpenSans" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik&display=swap" />
+  <script src="https://kit.fontawesome.com/067534b60d.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="./assets/css/contact.css" />
+  <link rel="shortcut icon" type="image/jpg" href="./assets/images/favicon.png" />
+  <title>Contacta con Las 4 Fantásticas</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container_nav">
+      <h1 class="nombre_header">
+        <a href="./index.html" class="four">Las 4 fantásticas</a>
+      </h1>
+      <nav>
+        <ul class="ul_nav_header">
+          <li class="menu_ul_nav_header">
+            <a href="./index.html#Equipo">Equipo</a>
+          </li>
+          <li class="menu_ul_nav_header">
+            <a href="./index.html#Quienes_Somos">Quienes somos</a>
+          </li>
+          <li class="menu_ul_nav_header">
+            <a href="./index.html">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="conteiner_img">
+      <div class="img-hero-contact"></div>
+    </div>
+  </header>
+  <main>
+    <section class="contactSection">
+        <h2 class="contactSection__title">Contacto</h2>
+        <p class="contactSection__text">
+          Ante cualquier duda, pregunta o si simplemente deseas recibir más información sobre nuestros servicios, no dudes en ponerte en contacto con nosotras, estaremos encantadas de atenderte. 
+        </p>
+        <p class="contactSection__info">Todos los campos marcados con <span class="contactSection__info--span">*</span> son obligatorios</p>
+      </section>
+    <div class="form_container">
+      <form class="form" action="https://formspree.io/f/xnqleleb" method="post">
+        <label class="form__label" for="name"
+          >Nombre completo <span class="star">*</span></label
+        >
+        <input
+          class="form__input"
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Nombre..."
+          pattern="^[a-zA-Z]{1-50}$"
+          required
+        />
+        <div class="div-ajust">
+          <label class="form__label div-ajust__email" for="mail"
+            >Email <span class="star">*</span></label
+          >
+          <input
+            class="form__input div-ajust__input-email"
+            type="email"
+            id="mail"
+            name="mail"
+            placeholder="nombre.apellidos@mail.com"
+            required
+          />
+
+          <label class="form__label div-ajust__tel" for="phone">Teléfono</label>
+          <input
+            class="form__input div-ajust__input-tel"
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="Ej: 123456789"
+            pattern="^[0-9]{9}$"
+          />
+        </div>
+        <label class="form__label" for="message"
+          >Mensaje <span class="star">*</span>
+        </label>
+        <textarea
+          class="form__input form__input--textArea"
+          name="message"
+          id="message"
+          cols="30"
+          rows="10"
+          placeholder="¿Qué necesitas?"
+          required
+        ></textarea>
+        <div class="div-boton">
+          <input class="form__input--btn" type="submit" value="enviar" />
+        </div>
+      </form>
+    </div>
+
+  </main>
+  <footer class="footer">
+    <span class="footer__span">Las 4 Fantásticas ©2021</span>
+    <nav class="footer__nav">
+      <ul class="footer__ul">
+        <li class="footer__ul--li"><a href="./index.html#Equipo">Equipo</a></li>
+        <li class="footer__ul--li">
+          <a href="./index.html#Quienes_Somos">Quienes Somos</a>
+        </li>
+        <li class="footer__ul--li"><a href="./contact.html">Contacto</a></li>
+      </ul>
+    </nav>
+    <a href="https://adalab.es/" target="_blank" class="footer__aLogo">
+      <img
+        src="./assets/images/logo-adalab.png"
+        alt="Logo"
+        class="footer__aLogo--img"
+      />
+    </a>
+  </footer>
+
+</body>
+
+</html>
